@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratyush Mishra</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <script
+    src="https://kit.fontawesome.com/9f0a6df9a3.js"
+    crossorigin="anonymous"
+  ></script>
+  <body>
+    <!-- -----------------header------------------- -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img
+            src="/public/logo.png"
+            alt="logo"
+            class="logo"
+          />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i onclick="colsemenu()" class="fa-solid fas fa-x"></i>
+          </ul>
+          <i onclick="openmenu()" class="fas fa-bars"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>
+            Hi, I'm <span>Pratyush</span> <br />
+            Mishra from India
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------about------------------------ -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/public/Profile2.png" alt="user" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
+              dignissimos placeat similique adipisci sed iusto sint odit eius
+              praesentium, dolorum explicabo voluptatem aliquid perferendis non
+              quae sapiente earum minus reiciendis?
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('projects')">Projects</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web Development</span><br />Web app development</li>
+                <li><span>App Development</span><br />Building Android apps</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="projects">
+              <ul>
+                <li>
+                  <span>Blood-Donar-finder</span><br />
+                  using Reactjs, Nextjs
+                </li>
+                <li>
+                  <span>AI form builder</span><br />
+                  using Reactjs, Nextjs
+                </li>
+                <li>
+                  <span>Chat Application</span><br />
+                  using Reactjs
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Current</span><br />Persuing B.Tech from NPSEI</li>
+                <li>
+                  <span>2021</span><br />Completed Inter with
+                  <strong>86%</strong>
+                </li>
+                <li>
+                  <span>2019</span><br />Completed High School with
+                  <strong>88%</strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div id="skill">
+      <div class="container">
+        <div class="skill-row">
+          <div class="skills-col-1">
+            <h1 class="sub-title">Skills</h1>
+            <ul>
+              <li>HTML, CSS, JS</li>
+              <li>React</li>
+              <li>Nodejs, Nextjs, Expressjs</li>
+              <li>BackEnd: MongoDB and PostgreSQL</li>
+            </ul>
+          </div>
+          <div class="skills-col-2">
+            <img src="/public/html.png" alt="html" />
+            <img src="/public/react.jpeg" alt="react" />
+            <img src="/public/node-express.png" alt="node" />
+            <img src="/public/next.jpg" alt="next" />
+            <img src="/public/mongo.png" alt="mongo" />
+            <img src="/public/Npm.png" alt="npm" />
+            <img src="/public/postgresql.svg" alt="sql" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div id="project">
+      <div class="">
+        <h1 class="sub-title">Projects</h1>
+        <div class="project-row">
+          <a href="#" class="project-col">
+            <img src="/public/AI FORM LOGO.png" alt="form" />
+            <div>
+              <h1>AI-Form Builder</h1>
+              <p><strong>Framework used : </strong>React, PostgreSQL, Nextjs</p>
+            </div>
+          </a>
+          <a href="#" class="project-col">
+            <div class="image-block">
+              <img src="/public/AI-Mock-logo.png" alt="interview" />
+            </div>
+            <div>
+              <h1>AI-Interview Mocker</h1>
+              <p><strong>Framework used : </strong>React, PostgreSQL, Nextjs</p>
+            </div>
+          </a>
+          <a href="#" class="project-col">
+            <img src="/public/Blood.png" alt="blood" />
+            <div>
+              <h1>Blood Donar Finder</h1>
+              <p><strong>Framework used : </strong>React, PostgreSQL, Nextjs</p>
+            </div>
+          </a>
+          <a href="#" class="project-col">
+            <img src="/public/gemini_icon.png" alt="gimini" />
+            <div>
+              <h1>Gimini Clone</h1>
+              <p><strong>Framework used : </strong>React, Nextjs</p>
+            </div>
+          </a>
+          <a href="#" class="project-col">
+            <img src="/public/bgi.jpg" alt="chat" />
+            <div>
+              <h1>Personal Chat Applivation</h1>
+              <p><strong>Framework used : </strong>React, Nodejs, MongoDB</p>
+            </div>
+          </a>
+        </div>
+        <h1 class="github">
+          <a href="#">
+            <i class="fa-brands fa-github"></i>
+            Here are the collection of my project</a
+          >
+        </h1>
+      </div>
+    </div>
+
+    <!-- ------------------------Contact------------------------ -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p>
+              <i class="fa-solid fa-envelope"></i>mishrapratyush521@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"> </i>+91 8057547785</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="/public/Pratyush-Mishra.pdf" download class="btn"
+              ><i class="fa-solid fa-download"></i> Download Resume</a
+            >
+          </div>
+          <div class="contact-right">
+            <form action="">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your mail address"
+                required
+              />
+              <textarea
+                name="Message"
+                placeholder="Your Message"
+                rows="6"
+              ></textarea>
+              <button class="btn" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------------copyright-------------------- -->
+    <div class="copyright">
+      <p>Copyright © Pratyush. Made with ❤️ by Easy Tutorials</p>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function colsemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
