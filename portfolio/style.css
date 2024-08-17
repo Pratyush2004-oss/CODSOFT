@@ -17,7 +17,7 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(public/Profile1.png);
+  background-image: url('./public/Profile1.png');
   background-size: cover;
   background-position: center;
 }
@@ -31,6 +31,7 @@ nav {
   left: 20px;
   top: 0;
   background-color: #080808;
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -38,7 +39,7 @@ nav {
 }
 
 nav .logo {
-  height: 150px;
+  height: 100px;
 }
 
 nav ul li {
@@ -107,6 +108,7 @@ nav ul li a:hover::after {
   border-radius: 15px;
 }
 .about-col-2 {
+  text-align: justify;
   flex-basis: 60%;
   font-size: 30px;
 }
@@ -301,7 +303,7 @@ nav ul li a:hover::after {
   margin: 25px auto;
   width: fit-content;
   border: 1px solid #ff004f;
-  padding: 14px 50px;
+  padding: 14px 40px;
   border-radius: 6px;
   text-decoration: none;
   color: #fff;
@@ -356,9 +358,9 @@ form textarea {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   #header {
-    background-image: url(/public/Profile3.png);
+    background-image: url(./public/Profile3.png);
   }
   .header-text {
     margin-top: 100%;
@@ -398,10 +400,7 @@ form textarea {
   .sub-title {
     font-size: 40px;
   }
-  .about-col-1,
-  .about-col-2 {
-    flex-basis: 100%;
-  }
+  
   .about-col-1 {
     margin-bottom: 30px;
   }
@@ -430,4 +429,12 @@ form textarea {
   .copyright {
     font-size: 12px;
   }
+}
+
+@media only screen and  (max-width: 1000px){
+  .about-col-1,
+  .about-col-2 {
+    flex-basis: 100%;
+  }
+  
 }
