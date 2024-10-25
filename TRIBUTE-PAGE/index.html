@@ -6,12 +6,20 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="h-screen overflow-auto bg-red-100 overscroll-none">
-    <div class="grid grid-cols-3 gap-2 p-5">
-      <div class="flex flex-col items-center justify-center gap-3">
+  <style>
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+  <body class="h-[98vh] bg-red-100 overscroll-none">
+    <div class="grid grid-cols-1 gap-2 p-5 md:grid-cols-3">
+      <!-- Left Section -->
+      <div
+        class="flex flex-col items-center md:h-[97vh] gap-3 p-2 overflow-auto border-2 border-black rounded-lg"
+      >
         <img src="./images/img2.jpeg" alt="img" class="w-full rounded-full" />
         <div class="max-md:text-sm">
-            <!-- Prasident Info  -->
+          <!-- Prasident Info  -->
           <div class="text-center">
             <h1 class="font-bold">11th President of India</h1>
             <span>In Office</span><br />
@@ -39,42 +47,176 @@
             <hr class="h-1 bg-black" />
           </div>
 
-          
+          <!-- Personal Information -->
+          <div class="text-center border-2 border-black">
+            <h1 class="font-bold">Personal Details</h1>
+          </div>
+          <div>
+            <h1 class="grid grid-cols-2 my-1">
+              <b>Born</b
+              ><span class="text-xs">
+                15 October 1931 <br />
+                Rameshwaram, Madras Presidency, British India(modern-day Tamil
+                Nadu, India)
+              </span>
+            </h1>
+            <hr class="h-0.5 bg-black" />
+            <h1 class="grid grid-cols-2 my-1">
+              <b>Died</b
+              ><span class="text-xs">
+                27 July 2015 (aged 83) <br />
+                Shillong, Meghalaya India
+              </span>
+            </h1>
+            <hr class="h-0.5 bg-black" />
+            <h1 class="grid grid-cols-2 my-1">
+              <b>Resting place</b
+              ><span class="text-xs">
+                Dr. A.P.J. Abdul Kalam Memorial, <br />
+                Rameshwaram, Tamil Nadu, India
+              </span>
+            </h1>
+            <hr class="h-0.5 bg-black" />
+            <h1 class="grid grid-cols-2 my-1">
+              <b>Political party</b
+              ><span class="text-xs"> Bhartiya Janta Party </span>
+            </h1>
+            <hr class="h-0.5 bg-black" />
+            <h1 class="grid grid-cols-2 my-1">
+              <b>Profession</b
+              ><span class="text-xs">
+                <ul class="list-disc pl-0.5">
+                  <li>Aerospace Scientist</li>
+                  <li>Author</li>
+                </ul>
+              </span>
+            </h1>
+            <hr class="h-0.5 bg-black" />
+            <h1 class="grid grid-cols-2 my-1">
+              <b>Notable Work(s)</b
+              ><span class="text-xs">
+                <ul class="pl-0.5 list-disc">
+                  <li>Wings of Fire</li>
+                  <li>India 2020</li>
+                  <li>Ignited Minds</li>
+                  <li>Indomitable Spirit</li>
+                  <li>
+                    Transcendence: My Spritual Experiences with Pramukh Swamiji
+                  </li>
+                </ul>
+              </span>
+            </h1>
+            <hr class="h-0.5 bg-black" />
+            <h1 class="grid grid-cols-2 my-1">
+              <b>Associated Projects</b
+              ><span class="text-xs">
+                <ul class="pl-0.5 list-disc">
+                  <li>Polar Satellite Launch Vehicle</li>
+                  <li>Project Devil</li>
+                  <li>Project Valiant</li>
+                  <li>Smiling Buddha</li>
+                  <li>Pokhran-II</li>
+                </ul>
+              </span>
+            </h1>
+            <hr class="h-0.5 bg-black" />
+            <h1 class="my-1 text-center">
+              <b>Kalam as a Scientist</b>
+            </h1>
+            <hr class="h-0.5 bg-black" />
+            <p class="mt-2 text-xs text-justify">
+              This was my first stage, in which I learnt leadership from three
+              great teachers—Dr Vikram Sarabhai, Prof Satish Dhawan and Dr Brahm
+              Prakash. This was the time of learning and acquisition of
+              knowledge for me.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="flex flex-col items-center col-span-2 p-5">
-        <h1 class="my-5 font-serif text-2xl font-bold">
-          Dr. A.P.J Abdul Kalam
-        </h1>
-        <p class="text-justify max-md:text-sm lg:text-xl">
-          <b> Pakir Jainulabdeen Abdul Kalam </b> BR (15 October 1931 - 27 July
-          2015) was an Indian aerospace scientist and statesman who served as
-          the 11th president of India from 2002 to 2007. Born and raised in a
-          Muslim family in Rameswaram, Tamil Nadu, he studied physics and
-          aerospace engineering. He spent the next four decades as a scientist
-          and science administrator, mainly at the
-          <b>Defence Research and Development Organisation (DRDO)</b> and
-          <b> Space Research Organisation (ISRO)</b> and was intimately involved
-          in India's civilian space programme and military missile development
-          efforts. He thus came to be known as the Missile Man of India for his
-          work on the development of <b> ballistic missile</b> and
-          <b>launch vehicle technology</b>. He also played a pivotal
-          organisational, technical, and political role in India's Pokhran-II
-          nuclear tests in 1998, the first since the original nuclear test by
-          India in 1974. Kalam was elected as the
-          <b>11th president of India in 2002 </b>with the support of both the
-          ruling <b>Bharatiya Janata Party</b> and the
-          <b>then-opposition Indian National Congress.</b> Widely referred to as
-          the <b>"People's President"</b>, he returned to his civilian life of
-          education, writing and public service after a single term. He was a
-          recipient of several prestigious awards, including the
-          <b>Bharat Ratna,</b> (India's highest civilian honour). While
-          delivering a lecture at the Indian Institute of Management Shillong,
-          Kalam collapsed and died from an apparent cardiac arrest on 27 July
-          2015, aged 83. Thousands, including national-level dignitaries,
-          attended the funeral ceremony held in his hometown of Rameswaram,
-          where he was buried with full state honours.
-        </p>
+
+      <!-- Right Section -->
+      <div class="flex flex-col items-center md:h-[97vh] col-span-2 p-5 overflow-auto lg:p-10">
+        <div>
+          <h1 class="my-5 font-serif text-3xl font-bold">
+            Dr. A.P.J Abdul Kalam
+          </h1>
+          <p class="text-justify max-md:text-sm lg:text-xl">
+            <b> Pakir Jainulabdeen Abdul Kalam </b> BR (15 October 1931 - 27
+            July 2015) was an Indian aerospace scientist and statesman who
+            served as the 11th president of India from 2002 to 2007. Born and
+            raised in a Muslim family in Rameswaram, Tamil Nadu, he studied
+            physics and aerospace engineering. He spent the next four decades as
+            a scientist and science administrator, mainly at the
+            <b>Defence Research and Development Organisation (DRDO)</b> and
+            <b> Space Research Organisation (ISRO)</b> and was intimately
+            involved in India's civilian space programme and military missile
+            development efforts. He thus came to be known as the Missile Man of
+            India for his work on the development of
+            <b> ballistic missile</b> and <b>launch vehicle technology</b>. He
+            also played a pivotal organisational, technical, and political role
+            in India's Pokhran-II nuclear tests in 1998, the first since the
+            original nuclear test by India in 1974. Kalam was elected as the
+            <b>11th president of India in 2002 </b>with the support of both the
+            ruling <b>Bharatiya Janata Party</b> and the
+            <b>then-opposition Indian National Congress.</b> Widely referred to
+            as the <b>"People's President"</b>, he returned to his civilian life
+            of education, writing and public service after a single term. He was
+            a recipient of several prestigious awards, including the
+            <b>Bharat Ratna,</b> (India's highest civilian honour). While
+            delivering a lecture at the Indian Institute of Management Shillong,
+            Kalam collapsed and died from an apparent cardiac arrest on 27 July
+            2015, aged 83. Thousands, including national-level dignitaries,
+            attended the funeral ceremony held in his hometown of Rameswaram,
+            where he was buried with full state honours.
+          </p>
+        </div>
+        <div>
+          <h1 class="my-4 font-serif text-2xl font-bold underline">
+            Early Life and Education
+          </h1>
+          <p class="text-sm text-justify lg:text-lg">
+            Avul Pakir Jainulabdeen Abdul Kalam was born on
+            <b> 15 October 1931</b>, to a <b>Tamil Muslim family</b> in the
+            pilgrimage centre of <b>Rameswaram on Pamban Island</b>, then in the
+            Madras Presidency and now in the State of Tamil Nadu. His father
+            <b>Marakayar</b> was a boat owner and imam of a local mosque; his
+            mother Ashiamma was a housewife. His father owned a ferry that took
+            Hindu pilgrims back and forth between Rameswaram and the now
+            uninhabited <b>Dhanushkodi</b>. Kalam was the youngest of four
+            brothers and one sister in his family. His ancestors had been
+            wealthy <b>Marakayar</b> traders and landowners, with numerous
+            properties and large tracts of land. Marakayar are a Muslim ethnic
+            group found in coastal Tamil Nadu and Sri Lanka who claim descent
+            from Arab traders and local women. The family business had involved
+            trading groceries between the mainland and the island and to and
+            from <b>Sri Lanka</b>, as well as ferrying pilgrims between the
+            mainland and Pamban. With the opening of the <b>Pamban Bridge</b> to
+            the mainland in 1914, however, the businesses failed and the family
+            fortune and properties were lost by the 1920s, apart from the
+            ancestral home. The family was poverty-stricken by the time Kalam
+            was born. As a young boy he had to sell newspapers to add to the
+            family's meager income. In his school years, Kalam had average
+            grades but was described as a bright and hardworking student who had
+            a strong desire to learn. He spent hours on his studies, especially
+            <b>Mathematics</b>. After completing his education at
+            <b>Schwartz Higher Secondary School, Ramanathapuram</b>, Kalam went
+            on to attend the <b>St. Joseph's College, Tiruchirappalli</b> from
+            where he graduated in Physics in 1954. Kalam moved to Madras in 1955
+            to study
+            <b>Aerospace engineering in Madras Institute of Technology</b>.
+            While Kalam was working on a senior class project, the Dean was
+            dissatisfied with his lack of progress and threatened to revoke his
+            scholarship unless the project was finished within the next three
+            days. Kalam met the deadline, impressing the Dean, who later said to
+            him,<b
+              >"I was putting you under stress and asking you to meet a
+              difficult deadline."</b
+            >
+            He narrowly missed achieving his dream of becoming a fighter pilot,
+            as he placed ninth in qualifiers, and only eight positions were
+            available in the IAF.
+          </p>
+        </div>
       </div>
     </div>
   </body>
