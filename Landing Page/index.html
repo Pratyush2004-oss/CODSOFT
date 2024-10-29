@@ -11,39 +11,39 @@
   <body class="min-h-screen">
     <!-- --------------------nav-------------------------------- -->
     <nav
-      class="sticky z-10 top-0 flex w-full justify-between items-center bg-gray-900 p-2 text-white"
+      class="sticky top-0 z-10 flex items-center justify-between w-full p-2 text-white bg-gray-900"
     >
       <div class="md:h-20">
-        <img class="h-full w-24 rounded-lg opacity-50" src="./public/Logo.jpeg" alt="logo" />
+        <img class="w-24 h-full rounded-lg opacity-50" src="./public/Logo.jpeg" alt="logo" />
       </div>
-      <div class="mx-4 w-full">
-        <ul class="md:flex justify-evenly gap-3 hidden">
-          <a class="hover:border-b-2 transition-all" href="#Home"
+      <div class="w-full mx-4">
+        <ul class="hidden gap-3 md:flex justify-evenly">
+          <a class="transition-all hover:border-b-2" href="#Home"
             ><li>Home</li></a
           >
-          <a class="hover:border-b-2 transition-all" href="#About"><li>About</li></a>
-          <a class="hover:border-b-2 transition-all" href="#Blog"><li>Blog</li></a>
-          <a class="hover:border-b-2 transition-all" href="#Services"
+          <a class="transition-all hover:border-b-2" href="#About"><li>About</li></a>
+          <a class="transition-all hover:border-b-2" href="#Blog"><li>Blog</li></a>
+          <a class="transition-all hover:border-b-2" href="#Services"
             ><li>Services</li></a
           >
-          <a class="hover:border-b-2 transition-all" href="#Contact"
+          <a class="transition-all hover:border-b-2" href="#Contact"
             ><li>Contact</li></a
           >
         </ul>
 
       </div>
-      <i class="fa-solid fa-bars md:hidden mr-5"></i>
+      <i class="mr-5 fa-solid fa-bars md:hidden"></i>
     </nav>
     
     <!-- --------------home----------------- -->
     <div class="pt-4" id="Home">
       <div class="relative w-full">
         <img class="w-full md:h-[650px]" src="./public/bgimage2.jpeg" alt="" />
-        <div class="absolute top-12 p-3 border-l-4 mx-4">
-          <h1 class="text-2xl text-white md:text-5xl font-bold font-serif">
+        <div class="absolute p-3 mx-4 border-l-4 top-12">
+          <h1 class="font-serif text-2xl font-bold text-white md:text-5xl">
             Creative
           </h1>
-          <p class="md:text-white text-slate-500 text-sm md:text-lg font-mono font-semibold">
+          <p class="font-mono text-sm font-semibold md:text-white text-slate-500 md:text-lg">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa
             distinctio repellendus assumenda odit minus, blanditiis laborum
             vitae, numquam commodi esse molestias tempora deleniti nulla non
@@ -52,17 +52,17 @@
         </div>
       </div>
       <div class="w-full p-4 bg-[linear-gradient(45deg,orange,red)] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
-        <div class="w-full rounded-lg shadow-lg bg-transparent hover:scale-105 transition border-4 p-2">
-            <h1 class="text-white text-xl font-serif m-2"> <i class="fa-solid fa-code"></i> Launch Business</h1>
-            <p class="text-justify text-slate-900 font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt temporibus placeat quasi ullam hic illo inventore. Nulla quae illo eos veniam! Porro cum quos exercitationem quae, doloremque ipsa ad fugiat.</p>
+        <div class="w-full p-2 transition bg-transparent border-4 rounded-lg shadow-lg hover:scale-105">
+            <h1 class="m-2 font-serif text-xl text-white"> <i class="fa-solid fa-code"></i> Launch Business</h1>
+            <p class="font-semibold text-justify text-slate-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt temporibus placeat quasi ullam hic illo inventore. Nulla quae illo eos veniam! Porro cum quos exercitationem quae, doloremque ipsa ad fugiat.</p>
         </div>
-        <div class="w-full rounded-lg shadow-lg bg-transparent hover:scale-105 transition border-4 p-2">
-            <h1 class="text-white text-xl font-serif m-2"> <i class="fa-regular fa-envelope"></i> Online Support</h1>
-            <p class="text-justify text-slate-900 font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt temporibus placeat quasi ullam hic illo inventore. Nulla quae illo eos veniam! Porro cum quos exercitationem quae, doloremque ipsa ad fugiat.</p>
+        <div class="w-full p-2 transition bg-transparent border-4 rounded-lg shadow-lg hover:scale-105">
+            <h1 class="m-2 font-serif text-xl text-white"> <i class="fa-regular fa-envelope"></i> Online Support</h1>
+            <p class="font-semibold text-justify text-slate-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt temporibus placeat quasi ullam hic illo inventore. Nulla quae illo eos veniam! Porro cum quos exercitationem quae, doloremque ipsa ad fugiat.</p>
         </div>
-        <div class="w-full rounded-lg shadow-lg bg-transparent hover:scale-105 transition border-4 p-2">
-            <h1 class="text-white text-xl font-serif m-2"> <i class="fa-regular fa-clock"></i> Time Management</h1>
-            <p class="text-justify text-slate-900 font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt temporibus placeat quasi ullam hic illo inventore. Nulla quae illo eos veniam! Porro cum quos exercitationem quae, doloremque ipsa ad fugiat.</p>
+        <div class="w-full p-2 transition bg-transparent border-4 rounded-lg shadow-lg hover:scale-105">
+            <h1 class="m-2 font-serif text-xl text-white"> <i class="fa-regular fa-clock"></i> Time Management</h1>
+            <p class="font-semibold text-justify text-slate-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt temporibus placeat quasi ullam hic illo inventore. Nulla quae illo eos veniam! Porro cum quos exercitationem quae, doloremque ipsa ad fugiat.</p>
         </div>
       </div>
     </div>
@@ -70,8 +70,8 @@
     <!-- -----------------about---------------------- -->
     <div id="About" class="p-10">
       <div class="grid grid-cols-1 md:grid-cols-2">
-        <div class="flex flex-col  justify-center text-justify">
-          <h1 class="text-5xl font-serif">About Us</h1>
+        <div class="flex flex-col justify-center text-justify">
+          <h1 class="font-serif text-5xl">About Us</h1>
           <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore tenetur vitae sunt, id doloremque deserunt repellendus beatae dicta voluptas eum assumenda sit! Magni voluptatibus in minima distinctio hic autem fugiat, quibusdam, necessitatibus iusto accusamus molestiae temporibus porro nesciunt labore ullam odit repellat debitis, quia sapiente atque animi provident vitae delectus. Quod ex enim, reiciendis architecto dolor earum dolorem autem animi.</p>
         </div>
         <div class="hidden md:flex h-[80%] lg-full flex-start">
@@ -82,13 +82,14 @@
 
     <!-- -----------------------Blog-------------------------- -->
      <div id="Blog" class="p-10">
-      <h1 class="text-5xl font-serif">Blogs</h1>
+      <h1 class="font-serif text-5xl">Blogs</h1>
+      <h1 class="font-serif text-5xl">Blogs</h1>
      </div>
 
     <!-- --------------------services-------------------------- -->
-     <div id="Services" class="bg-slate-200/50 p-10">
-      <h1 class="text-5xl font-serif">Services</h1>
-      <div class="grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+     <div id="Services" class="p-10 bg-slate-200/50">
+      <h1 class="font-serif text-5xl">Services</h1>
+      <div class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3">
         <div class="relative">
           <img src="./public/services1.jpg" alt="Services" class="rounded-full">
           <button class="absolute bottom-3 p-2 rounded-full right-2 bg-[linear-gradient(45deg,orange,red)]">View <i class="fa-regular fa-eye"></i></button>
@@ -106,7 +107,7 @@
 
      <!-- -------------------------Contact----------------------- -->
       <div id="Contact" class="p-10">
-        <h1 class="text-5xl font-serif">Contact us</h1>
+        <h1 class="font-serif text-5xl">Contact us</h1>
 
       </div>
   </body>
